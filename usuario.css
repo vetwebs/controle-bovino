@@ -1,0 +1,52 @@
+:root{
+    --fonte-princiapl: Roboto;
+
+
+}
+@font-face {
+    font-family: Roboto;
+    src: url(../fontes/Roboto-Regular.ttf);
+}
+
+body{
+    background: linear-gradient(white, rgba(151, 245, 127, 0.562) 80%, white);
+    margin: 0 auto;
+    padding: 0px;
+    
+}
+/*Logo*/
+.principal__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.principal__container img{
+    margin: 4em;
+
+}
+
+/*Input*/
+form input{
+    background-color: #a0f394;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    margin: 15px;
+    padding: 15px;
+    
+}
+input::placeholder{
+    color: #000000;
+    font-weight: bold;
+    font-family: Roboto;
+    font-size: 15px;
+}
+
+
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 5.5em;
+}
+
